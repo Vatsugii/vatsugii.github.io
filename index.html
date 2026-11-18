@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vatsugii — Minecraft Mods</title>
-  <meta name="description" content="Minecraft mods by Vatsugii for Forge, NeoForge, and Fabric. Release notes, compatibility details, and install instructions in one place.">
+  <meta name="description" content="What Vatsugii's Minecraft mod site offers: mod posts, release and compatibility details, Forge, NeoForge and Fabric support, and install notes.">
   <meta name="author" content="Vatsugii">
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#0b0d10">
@@ -21,7 +21,8 @@
         <span>Vatsugii</span>
       </a>
       <nav class="nav" aria-label="Main">
-        <a class="nav__link" href="minecraft-mods/" aria-current="page">Mods</a>
+        <a class="nav__link" href="./" aria-current="page">Home</a>
+        <a class="nav__link" href="minecraft-mods/">Mods</a>
         <a class="nav__link" href="https://github.com/Vatsugii">GitHub</a>
       </nav>
     </div>
@@ -31,13 +32,13 @@
     <section class="hero">
       <div class="container">
         <div class="hero__inner">
-          <p class="eyebrow">Minecraft mods</p>
-          <h1>Minecraft mods by Vatsugii.</h1>
+          <p class="eyebrow">Vatsugii · Minecraft mods</p>
+          <h1>Minecraft mods, clearly documented.</h1>
           <p class="lede">
-            Small, focused mods for <strong>Forge</strong>, <strong>NeoForge</strong>, and
-            <strong>Fabric</strong> — with release notes and install details kept in one
-            place. The first real build is still in progress, so the entry below is a
-            placeholder that tests the layout.
+            A small home for my mods: what they do, which loaders they support, and how to
+            install them. Everything is written down in plain language — no clutter, no
+            trackers. The first real release is still in progress, so the listing below is
+            a labelled placeholder.
           </p>
           <div class="loader-legend" aria-label="Supported mod loaders">
             <span class="loader-legend__label">Targeting</span>
@@ -47,8 +48,59 @@
           </div>
           <div class="hero__actions">
             <a class="btn btn--primary" href="minecraft-mods/">Browse mods</a>
-            <a class="btn" href="https://github.com/Vatsugii">GitHub profile</a>
+            <a class="btn" href="#offers">See what's here</a>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="offers" aria-labelledby="offers-heading">
+      <div class="container">
+        <div class="section__head">
+          <h2 id="offers-heading">What this site offers</h2>
+        </div>
+        <p class="section__note">
+          A straightforward place to find the details that matter, without digging through
+          posts or changelogs scattered across the web.
+        </p>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-card__index">01 / Mod pages</p>
+            <h3>One post per mod</h3>
+            <p>
+              Overview, features, compatibility, and a changelog — laid out the same way
+              every time, so each new mod is easy to scan.
+            </p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-card__index">02 / Release details</p>
+            <h3>Versions at a glance</h3>
+            <p>
+              Each listing shows the mod version, the Minecraft versions it targets, and
+              when it was last updated.
+            </p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-card__index">03 / Loader support</p>
+            <h3>Forge, NeoForge, and Fabric</h3>
+            <p>
+              Colour-coded badges make it obvious which loader a build is for before you
+              open the post.
+            </p>
+            <div class="offer-card__badges">
+              <span class="loader loader--forge">Forge</span>
+              <span class="loader loader--neoforge">NeoForge</span>
+              <span class="loader loader--fabric">Fabric</span>
+            </div>
+          </article>
+          <article class="offer-card">
+            <p class="offer-card__index">04 / Install notes</p>
+            <h3>Clear, honest status</h3>
+            <p>
+              Real releases will state the required loader and where to download them. Test
+              entries are labelled, so nothing fake is passed off as a mod.
+            </p>
+          </article>
         </div>
       </div>
     </section>
